@@ -1,0 +1,21 @@
+# Private credentials
+.env
+.env.*
+!.env.example
+
+# Private application configuration
+config/db_connect.php
+config/email_config.php
+config/secrets.php
+
+# Logs, temporary files and backups
+*.log
+.DS_Store
+Thumbs.db
+*.conf.backup
+obrs_backup/
+*_backup/
+*.sql
+
+# Dependencies (installed using Composer)
+vendor/
